@@ -1,0 +1,58 @@
+body{   
+    font-family: sans-serif;
+    background-color:lightgray ;
+    margin-top: 20px;
+    margin-bottom: 20px;  
+}
+.form1{
+    width: 729px; 
+    background-color: white; 
+    border-radius: 20px; 
+    text-align: center; 
+    padding-bottom: 40px; 
+    margin-left: auto;  
+    margin-right: auto;
+   
+}
+.imgParis{
+    width: 729px;
+    height: 350px;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    
+    
+
+    
+}
+.imageProfile{
+    width: 312px;
+    height: 312px;
+    border: 8px solid #FFFFFF;
+    border-radius: 100%;
+    margin-top: -200px;
+}
+.h1{
+    font-size: 30px;
+    font-weight: 700px;
+    color: #23003e;
+    padding-bottom: 40px;   
+}
+.pDescription{
+    font-size: 12px;
+    font-weight: 400px;
+    color: #7E7E7E ;
+    padding: 0 40px 40px 40px;
+}
+.buttonForm1{
+    background-color: #6A14AD ;
+    padding: 10px 20px 10px 20px ;
+    border-radius: 3px;
+    border: none;
+    color: #FFFFFF;
+}
+.buttonForm1:hover {
+    background-color:#460d73; /* Nuevo color de fondo al pasar el mouse */
+}
+
+
+ 
