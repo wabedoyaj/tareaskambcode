@@ -1,0 +1,73 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.head{
+    display: flex;
+    justify-content: space-around ;
+    margin: 50px 30px 50px 30px;
+    height: 40px;      
+}
+/*----------------------------------------------------------*/
+.container-titles{    
+    background-image: linear-gradient(0deg, #00000080 0%, #00000080 100%), url(./paris_banner.jpeg);
+    height: 300px;
+    background-size: cover;
+    color: white;
+    margin: 0 30px 0 30px;
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+}
+.title{
+    margin: 0;   
+}
+
+/*----------------------------------------------------------*/
+.container2{
+    
+    border-bottom: 1px solid #b1ccc4;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-bottom: 50px;   
+    
+}  
+.title2{
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: 140px;   
+         
+}
+.galeryParis{
+    padding-top: 20px;
+    display: flex;    
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    
+    
+}
+.imgParis{          
+    width: 250px;
+    height: 250px;
+    object-fit: cover;    
+} 
+/*--------------------------------------------------------------------------------*/
+
+footer{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 10px;
+}
+
+
