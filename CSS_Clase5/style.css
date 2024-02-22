@@ -11,18 +11,17 @@ body{
     background-color: white;
     border-radius: 5px;
 }
-.head{
+.head-form{
     background-color: rgb(66, 66, 192);
     text-align: center;
     color: white;
     padding-top: 20px;
     border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    
+    border-top-right-radius: 5px;    
 }
 .title{
     margin: 0px;
-    font-weight: normal;
+    font-weight: normal;/*Retira negrilla del h3*/
 
 }
 .p-title{
@@ -35,19 +34,19 @@ input{
     width: 230px;
     padding: 10px 10px 10px 15px;
     margin-bottom:30px ;
-    
 }
 .form-user{
     height: 310px;
-    overflow-y: scroll;
+    overflow-y: scroll;/*Crea barra scroll vertical*/
     border: 1px solid rgb(234, 231, 231);
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }   
 .user{
     display: flex;
     gap: 20px;
     align-items: center;
-     padding: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
     border-bottom: 1px solid rgb(234, 231, 231);;
 }
 
@@ -55,25 +54,28 @@ img{
     width: 70px;
     height: 70px;
     border-radius: 100%;
-    object-fit: cover;  
-
+    object-fit: cover; 
 }
+
 h3{
     margin-bottom: 5px;
-    size: 15px;
+ 
 }
+/*al parrafo que esta despues del h3 le da un margin-top o pixeles*/
 h3 + p {
     margin-top: 0;
 }
- ::-webkit-scrollbar{
-    background-color: rgb(122, 119, 119);
-    width: 6px;
-    border-radius: 2px;
-    height: 30px;
-    
-       
-} 
 
+/*a la barra de scroll  da color, ancho y un borde redondo*/
+ .form-user::-webkit-scrollbar{
+    background-color:rgb(201, 198, 198) ;
+    width: 6px;
+    border-radius: 2px;       
+}
+/*Cambia el color de la barra al momento de pasar el mouse por la barra de scroll*/ 
+.form-user::-webkit-scrollbar:hover{
+    background-color: brown;
+}
 
 
 
