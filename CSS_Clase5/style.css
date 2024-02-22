@@ -1,0 +1,79 @@
+body{
+    margin :0;
+    background-color: rgb(244, 239, 239);
+    padding-top: 50px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    
+}
+.contenedorPrincipal{
+    width:300px;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.head{
+    background-color: rgb(66, 66, 192);
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+.title{
+    margin: 0px;
+    font-weight: normal;
+
+}
+.p-title{
+    color:  rgb(205, 203, 203);;
+}
+input{
+    background-color: rgb(42, 42, 141);
+    border-radius: 20px;
+    border: none;
+    width: 230px;
+    padding: 10px 10px 10px 15px;
+    margin-bottom:30px ;
+    
+}
+.form-user{
+    height: 310px;
+    overflow-y: scroll;
+    border: 1px solid rgb(234, 231, 231);
+    border-bottom-left-radius: 10px;
+}   
+.user{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+     padding: 10px 15px 10px 15px;
+    border-bottom: 1px solid rgb(234, 231, 231);;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+    object-fit: cover;  
+
+}
+h3{
+    margin-bottom: 5px;
+    size: 15px;
+}
+h3 + p {
+    margin-top: 0;
+}
+ ::-webkit-scrollbar{
+    background-color: rgb(122, 119, 119);
+    width: 6px;
+    border-radius: 2px;
+    height: 30px;
+    
+       
+} 
+
+
+
+
