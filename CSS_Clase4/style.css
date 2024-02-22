@@ -11,7 +11,7 @@ body{
 }
 /*----------------------------------------------------------*/
 .container-titles{    
-    background-image: linear-gradient(0deg, #00000080 0%, #00000080 100%), url(./paris_banner.jpeg);
+    background-image: linear-gradient(0deg, #00000080 0%, #00000080 100%), url(./imagenes/paris_banner.jpeg);
     height: 300px;
     background-size: cover;
     color: white;
