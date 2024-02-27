@@ -1,33 +1,168 @@
 body{
-    margin: 0;
+    margin:0;
     padding: 0;
-}
-.menu{
+     
+} 
+.container{
+    
+    background-image:linear-gradient(90deg, rgba(255, 255, 255),  rgba(6, 48, 184, 0.50)), url(https://www.kambcodelatam.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fc1phkeakdkp0%2F3I9hyo1ifgCGz7amYDKs0E%2F98090777fa719f047b35d57ff8e39342%2FManPortrait.png&w=1920&q=75);
+    background-size: cover;
+    background-position: center;
+    font-family:sans-serif;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 5px;
+    flex-direction: column;
+    align-items: start;
+    padding-left: 40px;
     
-    
-    
-    
-
+} 
+.img-mobile{
+    display: none;
 }
-.item{
-    padding: 10px 40px;
-    background-color: grey;
+.img-desktop{
+    padding-top: 53px;
+    padding-bottom: 70px;
+}
+h1{
+    margin: 0;             
+    font-size:80px;
+}
+h2{
+    font-weight: normal;
+    margin: 0;
+    font-size: 50px;           
+}
+.bold{
+    font-weight: bold;
+    color: #0630B8;
+}
+.button-container{
+    margin: 63px 0px 15px 0px ;
+    background-color: #0630B8;
     color: white;
-    font-size: 36px;
-    text-align: center;
-    flex: auto;
+    width: 345px;
+    height: 80px;
+    padding: 25px 10px;
+    font-size: 24px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+    cursor: pointer;
+}
+.container-float{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    position: fixed;
+}
+
+.container-whatsapp{    
+    background-color: #02CE90;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;/*La propiedad z-index en CSS especifica el nivel de apilamiento de un elemento */
+    animation: animation_button_whatsapp 1s infinite alternate;   
+}
+.img-whatsapp {
+    width:35px;
+    height: 40px;    
+}
+.contenedor-link-descarga{
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    gap: 5px;
+    padding: 10px 0;
     
-  
+   
+}
+.etiqueta-link-descarga{
+    font-size: 18px;
+    color:#0630B8;
+    font-weight: bold;  
+      
+}
+.img-icon-descarga{
+    width:24px;
+    
+}    
+
+
+@media (max-width:1280px){
+    .container{         
+        background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.5),  rgba(6, 48, 184, 0.50)),url(https://www.kambcodelatam.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fc1phkeakdkp0%2F3I9hyo1ifgCGz7amYDKs0E%2F98090777fa719f047b35d57ff8e39342%2FManPortrait.png&w=1920&q=75);
+        background-size:cover;
+        background-position: center;
+        color: white;
+        align-items: center;   
+    }
+    .img-mobile{
+        display: block;
+        padding-top: 53px;
+        padding-bottom: 140px;        
+    }
+    .img-desktop{
+        display: none;
+
+    }
+    h1{
+        margin: 0;             
+        font-size:55px;
+    }
+    h2{
+        font-weight: normal;
+        margin: 0;
+        font-size: 40px;
+               
+    }
+    .bold{
+        font-weight: bold;
+        color: white;
+    }
+    .button-container{
+        margin-top: 50px;
+        background-color: #5980ff;
+        color: white;
+        width: 212px;
+        height: 50px;
+        padding: 10px 20px;
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+    }
+    .etiqueta-link-descarga{
+        font-size: 14px;
+        color:#f5f5f5;
+        font-weight: bold;            
+    }
+    .img-icon-descarga{
+        filter: grayscale(100%);
+        width: 20px;
+        
+     
+    }  
+    .contenedor-link-descarga{
+        
+        align-items: end;
+        gap: 5px;
+        padding: 10px 0 30px;    
+       
+    }  
     
 }
-@media (max-width:900px) {
-    .menu{
-        flex-direction: column;
-        
+/*@keyframes. Esta animación altera la propiedad transform de un elemento HTML.
+En el punto de inicio (0%), el elemento no tiene ninguna transformación (transform: translateY(0)), lo que significa que está en su posición normal.
+En el punto final (100%), el elemento se traslada hacia arriba (transform: translateY(-15px)), moviéndose 15 píxeles hacia arriba desde su posición original.*/
+@keyframes animation_button_whatsapp {
+    0%{
+        transform: translateY(0);
+    }
+    100%{
+        transform: translatey(-15px);
     }
     
 }
+
