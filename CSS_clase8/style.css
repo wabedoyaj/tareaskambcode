@@ -1,0 +1,39 @@
+.container{
+    background-color: gray;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ; 
+    padding: 5px;
+    gap: 5px;
+}
+.box1{
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10pxpx;
+    grid-column: span 2;
+    
+    
+}
+.box2{
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10pxpx;
+      
+}
+
+
+.box3{
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-column: span 3;
+    
+}
+.box4{
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 10px;
+    grid-column: span 4;    
+}
