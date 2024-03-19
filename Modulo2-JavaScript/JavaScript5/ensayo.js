@@ -1,13 +1,25 @@
-// console.log("EJERCICIO 3");
-// for (var i = 1; i<= 10; i++) {
-//     console.log("Tabla de multiplicar del "+i);
-//     for (var  j = 1; j <=10 ; j++) {
-//         var result = i*j;
-//         console.log(i + " x " + j + " = " + result);       
-//     }
-// }
-function saludar(nombre) {
-    console.log("¡Hola, " + nombre + "!");
-}
+//---------EJERCICIO 1-----------------------------------------------------------
+/* let listNumber=[];
 
-saludar("María");
+for (let i = 1; i<=50; i++) {
+    const randomNumber=Math.round(Math.random()*10)+1;   
+    listNumber.push(randomNumber);
+}
+console.log("Lista de numeros",listNumber);
+console.log("cantidad de elementos ", listNumber.length)
+//---------EJERCICIO 2-----------------------------------------------------------
+
+let newArray=[];
+for (let i = 0; i < listNumber.length; i++) {
+    if(listNumber[i]<4){
+        newArray.push(listNumber[i]);
+    }    
+}
+console.log("Elementos del nuevo array ",newArray) */
+//---------EJERCICIO 3-----------------------------------------------------
+let myArray = ["Hola","mundo","como", "estas", "hoy", "wilson"];
+let newMyArray=[];
+for (let i = (myArray.length -1); i >= 0; i--) {
+    newMyArray.push(myArray[i]);    
+}
+console.log(newMyArray);
