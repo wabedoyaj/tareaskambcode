@@ -1,5 +1,5 @@
 //---------EJERCICIO 1-----------------------------------------------------------
-/* let listNumber=[];
+let listNumber=[];
 
 for (let i = 1; i<=50; i++) {
     const randomNumber=Math.round(Math.random()*10)+1;   
@@ -15,7 +15,7 @@ for (let i = 0; i < listNumber.length; i++) {
         newArray.push(listNumber[i]);
     }    
 }
-console.log("Elementos del nuevo array ",newArray) */
+console.log("Elementos del nuevo array ",newArray)
 //---------EJERCICIO 3-----------------------------------------------------
 let myArray = ["Hola","mundo","como", "estas", "hoy", "wilson"];
 let newMyArray=[];

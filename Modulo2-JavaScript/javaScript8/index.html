@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+   <div class="main-form">
+    <div class="form">
+        <div class="containe-head">
+            <h1>Shopping List</h1>
+        </div>
+        
+        <div class="label-input">
+            <label >Product</label>
+            <input type="text" id="inputProduct" placeholder="Ingresar producto">
+        </div>
+        <div class="mensajeAlerta">
+            <p id="alert">
+            </p>
+        </div>
+        <div class="buttons">
+            <button onclick="addProcuctList()">Add Item</button>
+            <button onclick="cleanList()">Clean List</button>
+        </div>
+        
+    </div>
+    <div class="ResultShoppingList">
+        <h3>Shopping List</h3>
+        <ul id="elementList">            
+        </ul>
+    </div>
+   </div>
+   <script src="./main.js"></script>    
+</body>
+</html>
